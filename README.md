@@ -1,3 +1,7 @@
+# Zeal-GUTL
+
+Este es un fork de Zeal que utiliza una fuente alternativa para obtener los docsets desde el mirror creado en los servidores de JC 
+
 # Zeal
 
 [![Changelog](https://img.shields.io/github/release/zealdocs/zeal.svg?style=flat-square)](https://github.com/zealdocs/zeal/releases)
