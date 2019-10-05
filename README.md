@@ -1,6 +1,6 @@
 # Zeal-GUTL
 
-Este es un fork de Zeal que utiliza una fuente alternativa para obtener los docsets desde el mirror creado en los servidores de JC 
+Este es un fork de Zeal que utiliza una fuente alternativa para obtener los docsets desde el mirror creado en los servidores de Joven Club Cuba
 
 # Zeal
 
