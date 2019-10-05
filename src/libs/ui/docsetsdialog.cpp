@@ -774,7 +774,7 @@ void DocsetsDialog::downloadDashDocset(const QModelIndex &index)
     QUrl url;
     if (!m_userFeeds.contains(name)) {
         // No feed present means that this is a Kapeli docset
-        QString urlString = RedirectServerUrl + QString("/%1") +  QString(".tgz");
+        QString urlString = RedirectServerUrl + QString("/%1.tgz");
         url = QUrl(urlString.arg(name));
     } else {
         url = m_userFeeds[name].url();
