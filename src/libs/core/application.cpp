@@ -47,7 +47,7 @@ using namespace Zeal;
 using namespace Zeal::Core;
 
 namespace {
-const char ReleasesApiUrl[] = "https://api.zealdocs.org/v1/releases";
+const char ReleasesApiUrl[] = "http://download.jovenclub.cu/GUTL/Documentacion/zeal/api/docsets";
 }
 
 Application *Application::m_instance = nullptr;

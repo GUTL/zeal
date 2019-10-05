@@ -54,8 +54,8 @@ extern Q_CORE_EXPORT int qt_ntfs_permission_lookup;
 #endif
 
 namespace {
-const char ApiServerUrl[] = "https://api.zealdocs.org/v1";
-const char RedirectServerUrl[] = "https://go.zealdocs.org";
+const char ApiServerUrl[] = "http://download.jovenclub.cu/GUTL/Documentacion/zeal/api";
+const char RedirectServerUrl[] = "http://download.jovenclub.cu/GUTL/Documentacion/zeal/docsets";
 // TODO: Each source plugin should have its own cache
 const char DocsetListCacheFileName[] = "com.kapeli.json";
 
@@ -774,7 +774,7 @@ void DocsetsDialog::downloadDashDocset(const QModelIndex &index)
     QUrl url;
     if (!m_userFeeds.contains(name)) {
         // No feed present means that this is a Kapeli docset
-        QString urlString = RedirectServerUrl + QString("/d/com.kapeli/%1/latest");
+        QString urlString = RedirectServerUrl + QString("/%1") +  QString(".tgz");
         url = QUrl(urlString.arg(name));
     } else {
         url = m_userFeeds[name].url();
